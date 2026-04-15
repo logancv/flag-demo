@@ -1,0 +1,44 @@
+{
+  "flags": {
+    "enable_new_dashboard": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "New dashboard redesign",
+      "targeting": []
+    },
+    "dark_mode": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "Dark mode theme support",
+      "targeting": []
+    },
+    "experimental_search": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "Experimental search algorithm",
+      "targeting": []
+    },
+    "beta_export": {
+      "enabled": true,
+      "rollout_percentage": 50,
+      "description": "Beta CSV export feature",
+      "targeting": [
+        { "segment": "beta_users", "percentage": 100 }
+      ]
+    },
+    "legacy_auth_flow": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "Old authentication flow - deprecated",
+      "targeting": []
+    },
+    "onboarding_v2": {
+      "enabled": true,
+      "rollout_percentage": 25,
+      "description": "New onboarding experience",
+      "targeting": [
+        { "segment": "new_users", "percentage": 50 }
+      ]
+    }
+  }
+}

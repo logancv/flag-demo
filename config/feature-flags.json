@@ -39,6 +39,71 @@
       "targeting": [
         { "segment": "new_users", "percentage": 50 }
       ]
+    },
+    "new_pricing_page": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "Redesigned pricing page with annual toggle",
+      "targeting": []
+    },
+    "v2_api_responses": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "V2 API response envelope format",
+      "targeting": []
+    },
+    "improved_notifications": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "Batched notification delivery with digest mode",
+      "targeting": []
+    },
+    "team_collaboration": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "Real-time collaboration on shared documents",
+      "targeting": []
+    },
+    "ai_chatbot": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "AI-powered support chatbot - experiment cancelled",
+      "targeting": []
+    },
+    "social_login": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "OAuth social login (Google, GitHub) - never shipped",
+      "targeting": []
+    },
+    "gamification": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "Achievement badges and leaderboard - abandoned",
+      "targeting": []
+    },
+    "video_upload": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "Video file upload and transcoding - cut from roadmap",
+      "targeting": []
+    },
+    "new_checkout_flow": {
+      "enabled": true,
+      "rollout_percentage": 75,
+      "description": "Streamlined checkout with fewer steps",
+      "targeting": [
+        { "segment": "returning_customers", "percentage": 90 }
+      ]
+    },
+    "advanced_analytics": {
+      "enabled": true,
+      "rollout_percentage": 30,
+      "description": "Advanced analytics dashboard with cohort analysis",
+      "targeting": [
+        { "segment": "enterprise", "percentage": 100 },
+        { "segment": "pro_users", "percentage": 50 }
+      ]
     }
   }
 }

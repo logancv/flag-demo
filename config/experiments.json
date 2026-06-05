@@ -1,0 +1,30 @@
+{
+  "experiments": {
+    "redesigned_settings_panel": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "Settings page redesign with tabbed layout",
+      "targeting": []
+    },
+    "inline_editing": {
+      "enabled": true,
+      "rollout_percentage": 100,
+      "description": "Click-to-edit fields in table views",
+      "targeting": []
+    },
+    "bulk_actions": {
+      "enabled": false,
+      "rollout_percentage": 0,
+      "description": "Multi-select and bulk operations on list views - paused",
+      "targeting": []
+    },
+    "smart_suggestions": {
+      "enabled": true,
+      "rollout_percentage": 40,
+      "description": "ML-powered autocomplete suggestions",
+      "targeting": [
+        { "segment": "power_users", "percentage": 80 }
+      ]
+    }
+  }
+}
